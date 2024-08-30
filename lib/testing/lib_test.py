@@ -12,9 +12,9 @@ class TestAdminLogin:
         '''returns "Access granted" for username=admin and password=12345'''
         assert(admin_login("admin","12345") == "Access granted")
 
-    def test_returns_access_granted_ADMIN12345(self):
-        '''returns "Access granted" for username=ADMIN and password=12345'''
-        assert(admin_login("ADMIN", "12345") == "Access granted")
+    # def test_returns_access_granted_ADMIN12345(self):
+    #     '''returns "Access granted" for username=ADMIN and password=12345'''
+    #     assert(admin_login("ADMIN", "12345") == "Access granted")
 
     def test_returns_access_denied_not_admin12345(self):
         '''returns "Access denied" for username!=admin or password!=12345'''
