@@ -36,12 +36,11 @@ def fizzbuzz(num):
         return("Fizz")
     else:
         return num
-    
-fizzbuzz(6)
+
 fizzbuzz(10)
 fizzbuzz(15)
 fizzbuzz(22)
-fizzbuzz(2)
+fizzbuzz(52)
 fizzbuzz(13)
 fizzbuzz(59)
 
